@@ -23,7 +23,7 @@ const ListOfRestraurants = (props) => {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": rapidApiKey,
+        "X-RapidAPI-Key":rapidApiKey,
         "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
       },
     };
@@ -33,7 +33,11 @@ const ListOfRestraurants = (props) => {
         options
       );
       const data = await response.json();
-      console.log(data);
+     if(!data.data)
+     {
+      alert("Api limit crossed. See you in next month.")
+      return; 
+     }
       const restaurant = data.data;
       setRestaurants((prevState) => [...prevState, ...restaurant]);
     }
