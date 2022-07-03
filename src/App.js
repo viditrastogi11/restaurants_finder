@@ -121,14 +121,11 @@ function App() {
     <div className="App">
       <div style={{ display: "flex" }}>
         {isLoaded ? (
-          <GoogleMapComponent
+          <>
+           <GoogleMapComponent
             {...{ center, restaurants, selectedRestaurant, currentLocation }}
           ></GoogleMapComponent>
-        ) : (
-          <LoadingSpinner></LoadingSpinner>
-        )}
-
-        <ListOfRestraurants
+          <ListOfRestraurants
           {...{
             currentLocation,
             setCurrentLocation,
@@ -138,6 +135,13 @@ function App() {
             prevLocations,
           }}
         ></ListOfRestraurants>
+          </>
+         
+        ) : (
+          <LoadingSpinner></LoadingSpinner>
+        )}
+
+      
       </div>
     </div>
   );

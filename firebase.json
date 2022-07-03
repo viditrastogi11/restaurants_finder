@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "restaurantsfinder",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

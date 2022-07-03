@@ -1,3 +1,3 @@
 //Need to move in env or backenf
 export const mapApiKey="AIzaSyCc9butATFm3m7CmgofLsgeSRBcDTq78dQ";
-export const rapidApiKey="9710da3a58msh3a92b099516d470p10aa6bjsn671416b25762"
+export const rapidApiKey="e8a92350edmsh94c6a315ad5280ap10dca9jsn535be992ea73"

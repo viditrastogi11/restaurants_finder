@@ -48,7 +48,7 @@ const ListOfRestraurants = (props) => {
           {isLoading ? (
             <LoadingSpinner></LoadingSpinner>
           ) : (
-            <div style={{ height: "100vh", overflow: "scroll"}}>
+            <div style={{ height: "90%", overflow: "scroll"}}>
               {restaurants.map((e, i) => {
                 return e.name && e.address ? (
                   <>
