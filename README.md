@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Restaurant Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Restaurant Finder](https://github.com/viditrastogi11/restaurants_finder).
 
 ## Deploy
 
