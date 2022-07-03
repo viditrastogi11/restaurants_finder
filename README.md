@@ -1,6 +1,6 @@
 # Getting Started with Restaurant Finder
 
-[Restaurant Finder](https://github.com/viditrastogi11/restaurants_finder).
+The webapp [Restaurant Finder](https://github.com/viditrastogi11/restaurants_finder) will show you 100 restaurant near your current location. It will also store your last used location in local storage which you can used to find nearby restaurant to your previous locations. 
 
 ## Deployment
 
