@@ -2,7 +2,7 @@
 
 [Restaurant Finder](https://github.com/viditrastogi11/restaurants_finder).
 
-## Deploy
+## Deployment
 
 This webapp is deploy at https://restaurantsfinder.web.app/
 
